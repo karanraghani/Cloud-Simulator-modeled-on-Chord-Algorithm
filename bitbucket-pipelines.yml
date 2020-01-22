@@ -1,0 +1,19 @@
+# This is a sample build configuration for Scala.
+# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: bitbucketpipelines/scala-sbt:scala-2.12
+
+pipelines:
+  default:
+    - step:
+        script: # Modify the commands below to build your repository.
+          - sbt test
+#          - docker login -u ajithnair20 -p $PASSWORD
+#          - docker build -t ajithnair20/chord-algorithm:latest .
+#          - docker push ajithnair20/chord-algorithm:latest
+#        services:
+#          - docker
+options:
+    docker: true

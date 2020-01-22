@@ -1,0 +1,13 @@
+Hello Team,
+
+You guys established a well structured simulation of CHORD. Abstracting multiple nodes via workers is a nice technique.
+
+Could have added multiple such workers(with some variations) and their abstractions to simulate distributed nature of CHORD.
+Could have added bit more documentation for (Actor's recievers at least) and their actions.
+
+That being said, good job with your simulation!
+
+Your scores are Updated on BB! (You will see them when they are released)
+
+Regards,
+Mohammed Siddiq
