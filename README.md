@@ -1,4 +1,4 @@
-```
+
 ## Akka based simulation of Chord
 
 
@@ -12,7 +12,7 @@ We use Akka, a toolkit for building highly concurrent, distributed, and resilien
 The projects simulates assignment of task from multiple Front Ends (users) and the Worker Nodes using Chord. 
 The implemntation is reselient to network failures, provides necessary logging to see work routing/assignment and 
 messages passed between the nodes.
-```
+
 
 Sample showing node lookup and REST invocation:
 ![Basic Setup Run](doc/sample-run.gif)
@@ -21,7 +21,6 @@ Sample showing Docker run:
 ![Basic Setup Run](doc/sample-run-docker.gif)
 
 
-```
 
 -----
 INDEX
@@ -438,4 +437,3 @@ Providing longer chunk of logs for seeing extended results for multiple work ass
 23:05:16.330 | .default-dispatcher-4 | INFO  | .project.workers.FrontEnd | [front-end-1] Consumed result: 4 * 4 = 16 for job: 4, workId: dafb1db0-0369-4dc7-94ef-0217259e0f19, workIdHash: 3 from [worker-worker-3]
 
 
-```
