@@ -372,7 +372,7 @@ and the request then is forwarded to the entry in the finger table. In this case
 ------------------
 
 Providing longer chunk of logs for seeing extended results for multiple work assignments.
-
+```
 23:04:22.218 | default-dispatcher-20 | INFO  | .project.workers.FrontEnd | [front-end-1] Got ack for workId: aa7149ce-5b05-4dfd-941c-4b13299d636b
 23:04:22.243 | .default-dispatcher-4 | INFO  | .project.workers.FrontEnd | [front-end-2] Got ack for workId: ac1d2d34-53f7-4a04-bb70-6c69caf28be5
 23:04:22.338 | .default-dispatcher-2 | INFO  | 41.project.workers.Worker | [worker-1] Forward job: 1 with workId: aa7149ce-5b05-4dfd-941c-4b13299d636b, workIdHash: 5 to successor: 5
@@ -436,4 +436,4 @@ Providing longer chunk of logs for seeing extended results for multiple work ass
 23:05:16.324 | default-dispatcher-18 | INFO  | 41.project.workers.Worker | [worker-3] Completed work: (dafb1db0-0369-4dc7-94ef-0217259e0f19,4,Actor[akka.tcp://ClusterSystem@127.0.0.1:3000/user/front-end-1#1380129533]) with result: 4 * 4 = 16
 23:05:16.330 | .default-dispatcher-4 | INFO  | .project.workers.FrontEnd | [front-end-1] Consumed result: 4 * 4 = 16 for job: 4, workId: dafb1db0-0369-4dc7-94ef-0217259e0f19, workIdHash: 3 from [worker-worker-3]
 
-
+```
