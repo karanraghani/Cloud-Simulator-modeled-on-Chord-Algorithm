@@ -102,7 +102,8 @@ to the user. The system is initialized using the number of users, storage nodes 
 configuration file of the application. Once the system is initialized, a storage node can leave and join the system.
 
 We have used Akka Management module to implement REST functionality.
-Nodes can also be dynamically removed via DELETE requests to `ClusterSystem@127.0.0.1:8558/cluster/members/{address}` 
+Nodes can also be dynamically removed via DELETE requests to 
+```ClusterSystem@127.0.0.1:8558/cluster/members/{address}
     ```
     {
         "message": "Leaving akka.tcp://ClusterSystem@127.0.0.1:2551"
@@ -165,7 +166,7 @@ Further one can make GET requests to `ClusterSystem@127.0.0.1:8558/cluster/membe
         "unreachable": []
     }
     ```
-
+```
 
 ------------------------------
 4. Setup Instructions (Docker)
